@@ -19,13 +19,13 @@
         {
           "foreground": "#0B59E7",
           "style": "plain",
-          "template": "| \ue7b0 {{ if .Error }}{{ .Error }}{{ else }}{{ .Context }} ",
+          "template": "| \ue650 {{ .Context }} ",
           "type": "docker"
         },
         {
           "foreground": "#F9AD00",
           "style": "plain",
-          "template": "| \ue61a {{ .Full }} ",
+          "template": "| \ue865 {{ .Full }} ",
           "type": "pnpm"
         },
         {
