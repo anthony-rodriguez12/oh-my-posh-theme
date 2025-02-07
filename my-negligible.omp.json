@@ -7,13 +7,13 @@
         {
           "foreground": "#0B59E7",
           "style": "plain",
-          "template": "| \ue650 {{ .Context }} ",
+          "template": "\ue650 {{ .Context }} ",
           "type": "docker"
         },
         {
           "foreground": "#ff0000",
           "style": "plain",
-          "template": " \ue753 {{ .Full }} ",
+          "template": "| \ue753 {{ .Full }} ",
           "type": "angular"
         },
         {
