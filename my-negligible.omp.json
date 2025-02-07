@@ -17,6 +17,18 @@
           "type": "npm"
         },
         {
+          "foreground": "#0B59E7",
+          "style": "plain",
+          "template": "| \ue7b0 {{ if .Error }}{{ .Error }}{{ else }}{{ .Context }} ",
+          "type": "docker"
+        },
+        {
+          "foreground": "#F9AD00",
+          "style": "plain",
+          "template": "| \ue61a {{ .Full }} ",
+          "type": "pnpm"
+        },
+        {
           "foreground": "#4584b6",
           "properties": {
             "display_mode": "context",
