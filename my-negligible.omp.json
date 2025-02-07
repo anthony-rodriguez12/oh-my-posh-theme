@@ -5,6 +5,12 @@
       "alignment": "right",
       "segments": [
         {
+          "foreground": "#0B59E7",
+          "style": "plain",
+          "template": "| \ue650 {{ .Context }} ",
+          "type": "docker"
+        },
+        {
           "foreground": "#ff0000",
           "style": "plain",
           "template": " \ue753 {{ .Full }} ",
@@ -15,12 +21,6 @@
           "style": "plain",
           "template": "| \ue71e {{ .Full }} ",
           "type": "npm"
-        },
-        {
-          "foreground": "#0B59E7",
-          "style": "plain",
-          "template": "| \ue650 {{ .Context }} ",
-          "type": "docker"
         },
         {
           "foreground": "#F9AD00",
